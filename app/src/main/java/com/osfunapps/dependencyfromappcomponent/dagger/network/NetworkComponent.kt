@@ -17,10 +17,9 @@ import dagger.android.support.DaggerApplication
         modules = [AndroidSupportInjectionModule::class, NetworkModule::class] )
 
 
-interface NetworkComponent : AndroidInjector<DaggerApplication> {
+interface NetworkComponent : AndroidInjector<App> {
 
     //a generic builder
-    override fun inject(instance: DaggerApplication)
 
     fun networkInstance(): NetworkInstance
 
