@@ -2,13 +2,9 @@ package com.osfunapps.dependencyfromappcomponent
 
 import android.app.Application
 import com.osapps.core.coreComponent
-import com.osapps.core.di.AppModule
-import com.osapps.core.infrastructure.localrepository.LocalRepository
 import com.osapps.core.initCoreDI
-import com.osfunapps.dependencyfromappcomponent.dagger.main.AppComponent
-import com.osfunapps.dependencyfromappcomponent.dagger.main.DaggerAppComponent
-import com.osfunapps.dependencyfromappcomponent.dagger.network.DaggerNetworkComponent
-import javax.inject.Inject
+import com.osfunapps.dependencyfromappcomponent.dagger.AppComponent
+import com.osfunapps.dependencyfromappcomponent.dagger.DaggerAppComponent
 
 
 /**
